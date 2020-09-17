@@ -44,7 +44,7 @@ function generateSimpTable(simpScore)
 
     for (var key in simpScore)
     {
-        tableString += `<div class="scoring-category"><span>${categoryMapping[key]}</span></div><div class="percentage-bar"><div style="width:${simpScore[key]}%"></div></div>`;
+        tableString += `<div class="scoring-category"><span>${categoryMapping[key]}</span><div class="percentage-bar"><div style="width:${simpScore[key]}%"></div></div></div>`;
     }
 
     return tableString;

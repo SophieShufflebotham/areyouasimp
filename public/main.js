@@ -25,6 +25,6 @@ function submit()
 
 function showResult(nameBase64)
 {
-    window.location.href = "simpResult.html" + `?name=${nameBase64}`;
+    window.location.href = "result.html" + `?name=${nameBase64}`;
 
 }
