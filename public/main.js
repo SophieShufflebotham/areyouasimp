@@ -23,8 +23,8 @@ function submit()
 
 }
 
-function showResult(nameBase64)
+function showResult(name)
 {
-    window.location.href = "result.html" + `?name=${nameBase64}`;
+    window.location.href = "result.html" + `?name=${name}`;
 
 }
